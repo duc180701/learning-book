@@ -5,4 +5,4 @@ Repo này dùng để lưu trữ kiến thức học tập, ghi chú khóa học
 ## 🧭 Menu chính
 
 ### 🔐 Cybersecurity
-- [Cybersecurity](cybersecurity/network-security/00-MENU.md)
+- [Cybersecurity](cybersecurity/00-MENU.md)
