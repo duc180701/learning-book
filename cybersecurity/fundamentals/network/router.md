@@ -1,3 +1,5 @@
+[<-- Back to Network Menu](../network/00-MENU.md)
+
 # 📌 Router
 
 > Thiết bị mạng dùng để kết nối các mạng khác nhau và định tuyến dữ liệu giữa chúng.
@@ -116,3 +118,5 @@ Router sẽ xác định một đường đi giữa hai mạng để dữ liệu
 ## 📚 Nguồn tham khảo
 
 - [TryHackMe](https://tryhackme.com/room/whatisnetworking)
+
+[<-- Back to Network Menu](../network/00-MENU.md)

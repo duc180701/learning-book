@@ -1,3 +1,5 @@
+[<-- Back to Network Menu](../network/00-MENU.md)
+
 # 📌 Network (Mạng lưới)
 
 > Tập hợp các thiết bị hoặc thực thể được kết nối với nhau để trao đổi thông tin, tài nguyên hoặc dịch vụ.
@@ -91,3 +93,5 @@ Ví dụ trong thực tế:
 
 ## 📚 Nguồn tham khảo
 - [TryHackMe](https://tryhackme.com/room/whatisnetworking)
+
+[<-- Back to Network Menu](../network/00-MENU.md)

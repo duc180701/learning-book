@@ -1,3 +1,5 @@
+[<-- Back to Network Menu](../network/00-MENU.md)
+
 # 📌 DHCP (Dynamic Host Configuration Protocol)
 
 > Giao thức tự động cấp phát địa chỉ IP và các thông số mạng cho thiết bị khi tham gia vào mạng.
@@ -169,3 +171,5 @@ Quá trình diễn ra:
 ## 📚 Nguồn tham khảo
 
 - [TryHackMe](https://tryhackme.com/room/whatisnetworking)
+
+[<-- Back to Network Menu](../network/00-MENU.md)

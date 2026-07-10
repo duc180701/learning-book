@@ -1,3 +1,5 @@
+[<-- Back to Network Menu](../network/00-MENU.md)
+
 # 📌 Ping
 
 > Công cụ mạng cơ bản dùng giao thức ICMP để kiểm tra khả năng kết nối và đo thời gian phản hồi giữa hai thiết bị.
@@ -163,3 +165,5 @@ Nếu nhận được Echo Reply, thiết bị có thể giao tiếp với đị
 ## 📚 Nguồn tham khảo
 
 - [TryHackMe](https://tryhackme.com/room/whatisnetworking)
+
+[<-- Back to Network Menu](../network/00-MENU.md)

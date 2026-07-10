@@ -1,3 +1,5 @@
+[<-- Back to Network Menu](../network/00-MENU.md)
+
 # 📌 LAN Topologies
 
 > Topology là cách bố trí và kết nối các thiết bị trong một mạng LAN.
@@ -174,3 +176,5 @@ Dữ liệu được truyền lần lượt qua từng thiết bị cho đến k
 ## 📚 Nguồn tham khảo
 
 - [TryHackMe](https://tryhackme.com/room/whatisnetworking)
+
+[<-- Back to Network Menu](../network/00-MENU.md)

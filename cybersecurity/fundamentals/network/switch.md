@@ -1,3 +1,5 @@
+[<-- Back to Network Menu](../network/00-MENU.md)
+
 # 📌 Switch
 
 > Thiết bị mạng dùng để kết nối nhiều thiết bị trong cùng một mạng LAN và chuyển tiếp dữ liệu đến đúng thiết bị đích.
@@ -155,3 +157,5 @@ Việc này giúp tăng tính sẵn sàng của mạng bằng cách tạo thêm 
 ## 📚 Nguồn tham khảo
 
 - [TryHackMe](https://tryhackme.com/room/whatisnetworking)
+
+[<-- Back to Network Menu](../network/00-MENU.md)
