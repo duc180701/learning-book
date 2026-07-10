@@ -1,4 +1,4 @@
-[<-- Back to Network Menu](/00-MENU.md)
+[<-- Back to Network Menu](../network/00-MENU.md)
 
 # 📌 ARP (Address Resolution Protocol)
 
@@ -206,4 +206,4 @@ ARP Cache
 
 - [TryHackMe](https://tryhackme.com/room/whatisnetworking)
 
-[<-- Back to Network Menu](/00-MENU.md)
+[<-- Back to Network Menu](../network/00-MENU.md)
