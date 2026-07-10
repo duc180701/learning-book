@@ -1,4 +1,4 @@
-- [<-- Back to Fundamental Menu](../00-MENU.md)
+[<-- Back to Fundamental Menu](../00-MENU.md)
 
 ## Menu
 
