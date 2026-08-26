@@ -2,4 +2,5 @@
 
 ## Menu
 
+- [Computer](computer/00-MENU.md)
 - [Network](network/00-MENU.md)
