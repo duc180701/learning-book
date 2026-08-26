@@ -5,16 +5,12 @@
 > Trước khi học cách bảo vệ máy tính, chúng ta cần hiểu về nó trước.
 
 <p align="center">
-    <p align="center">
-        <img src="../../../assets/images/computer/part.png" alt="I/O" width="500" height="400">
-        <br>
-        <i>Building blocks</i>
-    </p>
-    <p align="center">
-        <img src="../../../assets/images/computer/position-part.png" alt="I/O" width="500" height="400">
-        <br>
-        <i>Locations of the blocks</i>
-    </p>
+  <img src="../../../assets/images/computer/part.png" alt="I/O" width="500" height="400">
+  <img src="../../../assets/images/computer/position-part.png" alt="I/O" width="500" height="400">
+</p>
+
+<p align="center">
+  <i>Building blocks &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Locations of the blocks</i>
 </p>
 
 ---
