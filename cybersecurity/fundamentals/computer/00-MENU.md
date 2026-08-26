@@ -3,3 +3,4 @@
 ## Menu
 
 - [Inside a Computer System](inside-a-computer-system.md)
+- [Boot Sequence](boot-sequence.md)
