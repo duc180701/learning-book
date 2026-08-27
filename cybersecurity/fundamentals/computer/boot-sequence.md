@@ -6,15 +6,6 @@
 
 ---
 
-## 🎯 Mục tiêu
-
-- Hiểu được **Boot Sequence** và các bước cơ bản trong quá trình khởi động máy tính.
-- Phân biệt vai trò của **PSU, UEFI/BIOS, POST, Boot Device và Bootloader**.
-- Hiểu cách **Operating System (OS)** được nạp vào **RAM**.
-- Biết kiến thức nền tảng để phân tích các vấn đề liên quan đến **khởi động hệ thống**.
-
----
-
 ## 📖 Khái niệm
 
 - **Boot Sequence** là quá trình máy tính thực hiện sau khi được bật nguồn, nhằm kiểm tra phần cứng, xác định thiết bị khởi động và nạp hệ điều hành vào bộ nhớ.
