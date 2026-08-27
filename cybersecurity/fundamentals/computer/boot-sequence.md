@@ -12,7 +12,7 @@
 
 Quá trình này diễn ra theo chuỗi:
 <p align="center">
-  <img src="../../../assets/images/computer/boot-squence.png" alt="OSI Model" width="800" height="450">
+  <img src="../../../assets/images/computer/boot-squence.png" alt="Boot Sequence" width="800" height="450">
 </p>
 
 ---
