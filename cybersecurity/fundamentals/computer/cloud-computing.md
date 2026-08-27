@@ -143,8 +143,7 @@ Thay vì mua một server mới mỗi khi cần thêm tài nguyên, doanh nghi�
   </tr>
   <tr>
     <td align="center">Hybrid</td>
-    <td align="center">Kết hợp giữa Public Cloud và Private Cloud</td>
-    <td align="center"></td>
+    <td colspan="2" align="center">Kết hợp giữa Public Cloud và Private Cloud</td>
     <td align="center">Một doanh nghiệp có thể giữ dữ liệu nhạy cảm trên Private Cloud nhưng sử dụng Public Cloud để mở rộng hệ thống khi lượng truy cập tăng cao</td>
   </tr>
 </table>
