@@ -427,7 +427,7 @@ Phần Advanced Settings cho phép quản trị viên xem và quản lý:
 
 ## 📚 Nguồn tham khảo
 
-- [TryHackMe – Windows Basic](https://tryhackme.com/room/windowsbasics)
+* [TryHackMe – Windows Basic](https://tryhackme.com/room/windowsbasics)
 * Microsoft Learn – Windows
 * Microsoft Learn – Windows Security
 * Microsoft Learn – Windows Defender Firewall
