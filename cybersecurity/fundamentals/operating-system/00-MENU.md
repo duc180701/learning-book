@@ -4,3 +4,4 @@
 
 - [OS - Introduction](introduction.md)
 - [Windows Basic](windows-basic.md)
+- [Linux CLI Basic](linux-cli-basic.md)
