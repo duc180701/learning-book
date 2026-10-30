@@ -56,7 +56,7 @@ Vì vậy, cần bảo vệ cả dữ liệu lẫn hệ điều hành đang qu�
 Ba mục tiêu nền tảng của an toàn thông tin:
 
 <p align="center">
-  <img src="../../../assets/images/os/os-cia.png" alt="CIA" width=100% height="400">
+  <img src="../../../assets/images/os/os-cia.png" alt="CIA" width=80% height="400">
   <br>
   <i>CIA</i>
 </p>
