@@ -13,6 +13,8 @@
 | # | Module | Description |
 |:--:|---|---|
 | 01 | [🔢 Data Representation](data-representation.md) | Number Systems, Binary & Data Encoding |
+| 02 | [🔤 Data Encoding](data-encoding.md) | ASCII, Unicode, UTF-8 & Character Encoding |
+| 03 | [🗄️ Database SQL Basics](database-sql-basics.md) | Database Concepts, SQL Queries & Data Manipulation |
 
 ---
 
