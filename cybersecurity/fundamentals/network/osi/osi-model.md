@@ -1,4 +1,4 @@
-[<-- Back to Network Menu](../network/00-MENU.md)
+[<-- Back to OSI Menu](../osi-model.md)
 
 # 📌 OSI Model
 
@@ -68,4 +68,4 @@ OSI Model gồm 7 tầng:
 
 - [TryHackMe - OSI Model](https://tryhackme.com/room/osimodelzi)
 
-[<-- Back to Network Menu](../network/00-MENU.md)
+[<-- Back to OSI Menu](../osi-model.md)
