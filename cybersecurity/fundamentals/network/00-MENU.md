@@ -22,6 +22,7 @@
 | 08 | [🔀 Switch](switch.md) | Switching & LAN Communication |
 | 09 | [📶 Ping](ping.md) | Network Connectivity Testing |
 | 10 | [🧮 Subnetting](subnetting.md) | IP Addressing & Subnet Calculation |
+| 11 | [🧅 OSI Model](osi-model.md) | 7-Layer Network Reference Architecture |
 
 ---
 
