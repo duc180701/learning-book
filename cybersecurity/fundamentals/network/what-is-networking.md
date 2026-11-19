@@ -1,97 +1,99 @@
 [<-- Back to Network Menu](../network/00-MENU.md)
 
-# 📌 Network (Mạng lưới)
 
-> Tập hợp các thiết bị hoặc thực thể được kết nối với nhau để trao đổi thông tin, tài nguyên hoặc dịch vụ.
+# 📌 What is Networking?
 
----
-
-## 🎯 Mục tiêu
-- Hiểu khái niệm mạng lưới trong lĩnh vực máy tính.
-- Biết vai trò của mạng trong cuộc sống và an ninh mạng.
-- Làm nền tảng để học các giao thức, mô hình mạng và bảo mật mạng.
+> Hiểu khái niệm Network (mạng), cách các thiết bị kết nối với nhau để chia sẻ thông tin, tài nguyên và giao tiếp trong thế giới số.
 
 ---
 
 ## 📖 Khái niệm
-Mạng lưới (Network) là tập hợp các thiết bị được kết nối với nhau để có thể giao tiếp và chia sẻ dữ liệu.
 
-Khái niệm "mạng" không chỉ tồn tại trong máy tính mà còn xuất hiện ở nhiều lĩnh vực trong cuộc sống như hệ thống giao thông, lưới điện, dịch vụ bưu chính hay các mối quan hệ xã hội.
+### 1. What Is a Network?
 
-Trong lĩnh vực máy tính, mạng có thể bao gồm từ **2 thiết bị** cho đến **hàng tỷ thiết bị** kết nối với nhau. Các thiết bị này không chỉ là máy tính và điện thoại mà còn có thể là camera giám sát, đèn giao thông, thiết bị IoT và nhiều hệ thống thông minh khác.
+**Network (Mạng)** là tập hợp các đối tượng được kết nối với nhau.
 
-Do mạng máy tính được sử dụng ở hầu hết mọi lĩnh vực của cuộc sống hiện đại nên đây là kiến thức nền tảng quan trọng trong an ninh mạng.
+Trong cuộc sống, mạng có thể tồn tại dưới nhiều hình thức khác nhau. Các đối tượng kết nối nhờ những điểm chung, mục đích hoặc nhu cầu trao đổi.
+
+Ví dụ:
+- **Friendship Network:** Nhóm bạn kết nối với nhau thông qua sở thích, kỹ năng hoặc các hoạt động chung.
+- **Transportation Network:** Hệ thống giao thông kết nối các địa điểm trong thành phố.
+- **Power Grid:** Mạng lưới điện cung cấp điện đến các hộ gia đình và cơ sở.
+- **Postal Network:** Hệ thống bưu chính kết nối người gửi và người nhận thư, bưu phẩm.
+
+Ý tưởng chung của Network là các thành phần được kết nối với nhau để trao đổi hoặc hỗ trợ một mục đích nào đó.
+
+### 2. Computer Network
+
+Trong lĩnh vực Computing, Network cũng có cùng ý tưởng, nhưng các thành phần được kết nối là những thiết bị công nghệ.
+
+**Computer Network (Mạng máy tính)** là hệ thống gồm các thiết bị được kết nối với nhau nhằm giao tiếp, trao đổi dữ liệu và truy cập tài nguyên.
+
+Các thiết bị trong mạng có thể bao gồm:
+
+- Laptop và Desktop.
+- Smartphone và Tablet.
+- Server.
+- Security Cameras.
+- Traffic Lights.
+- Smart Devices.
+- Các thiết bị trong hệ thống nông nghiệp thông minh.
+
+Một Network có thể chỉ gồm 2 thiết bị hoặc mở rộng đến hàng tỷ thiết bị.
 
 ---
 
 ## ⚙️ Cách hoạt động
 
-Luồng giao tiếp cơ bản:
+### Network Connection Concept
 
-```text
-Thiết bị A
-     │
-     ▼
- Gửi dữ liệu
-     │
-     ▼
-Mạng truyền tải
-     │
-     ▼
-Thiết bị B nhận dữ liệu
-```
+Một mạng được hình thành khi các thiết bị có kết nối với nhau.
 
-Kiến trúc tổng quát:
+Ví dụ, Alice, Bob và Jim tạo thành một mạng khi họ được kết nối và có thể giao tiếp với nhau.
 
-```text
-Laptop
-    │
-Điện thoại
-    │
-Camera
-    │
-────── Network ──────
-    │
-Máy chủ
-    │
-Đèn giao thông
-    │
-Thiết bị IoT
-```
+<p align="center">
+  <img src="../../../assets/images/network/alice-bob-jim.png" alt="Alice Bob Jim" width="600">
+  <br>
+  <i>Alice Bob Jim</i>
+</p>
 
-Mọi thiết bị trong mạng đều tuân theo các quy tắc giao tiếp để có thể trao đổi dữ liệu với nhau.
+Trong sơ đồ trên:
 
----
+- Alice, Bob và Jim là các thành phần trong mạng.
+- Các đường nối thể hiện kết nối giữa các thành phần.
+- Mạng cho phép các thành phần kết nối với nhau.
 
-## 💡 Ví dụ
-
-Ví dụ trong thực tế:
-
-- Điện thoại kết nối Internet để truy cập website.
-- Camera an ninh gửi hình ảnh về máy chủ giám sát.
-- Đèn giao thông kết nối với trung tâm điều khiển để nhận tín hiệu.
-- Hệ thống thu thập dữ liệu thời tiết gửi thông tin về trung tâm xử lý.
+Trong Computer Networking, các thành phần tương tự có thể là máy tính, điện thoại, server hoặc những thiết bị mạng khác.
 
 ---
 
 ## 📝 Ghi nhớ
-- Network là tập hợp các thiết bị được kết nối với nhau.
-- Quy mô mạng có thể từ vài thiết bị đến hàng tỷ thiết bị.
-- Thiết bị trong mạng không chỉ là máy tính mà còn bao gồm nhiều thiết bị IoT.
-- Mạng là nền tảng của hầu hết các hệ thống hiện đại và là kiến thức cốt lõi trong Cyber Security.
+
+- Network là các thành phần được kết nối với nhau.
+- Network tồn tại trong nhiều lĩnh vực, không chỉ trong máy tính.
+- Computer Network kết nối các thiết bị công nghệ để giao tiếp và truy cập tài nguyên.
+- Một Network có thể gồm 2 thiết bị hoặc hàng tỷ thiết bị.
+- Laptop, smartphone, camera, traffic lights và smart farming devices đều có thể tham gia Network.
+- Networks được tích hợp sâu vào đời sống hiện đại.
+- Networking là kiến thức nền tảng cần thiết để học Cyber Security.
+- Thiết bị trong mạng giao tiếp với nhau theo các quy tắc nhất định.
 
 ---
 
 ## 🔗 Liên quan
-- Internet
-- LAN, WAN
+
+- Computer Networking
+- Internet Fundamentals
 - Network Devices
-- OSI Model
-- TCP/IP
+- Network Protocols
+- Data Communication
+- Network Security
+- Cyber Security Fundamentals
 
 ---
 
 ## 📚 Nguồn tham khảo
-- [TryHackMe](https://tryhackme.com/room/whatisnetworking)
+
+* [TryHackMe – What is Networking?](https://tryhackme.com/room/whatisnetworking)
 
 [<-- Back to Network Menu](../network/00-MENU.md)

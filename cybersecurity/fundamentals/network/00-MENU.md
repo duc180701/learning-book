@@ -15,7 +15,7 @@
 | 01 | [🌐 What is Networking?](what-is-networking.md) | Networking Concepts & Fundamentals |
 | 02 | [🌍 What is Internet?](what-is-internet.md) | Internet Architecture & Connectivity |
 | 03 | [🔗 LAN Topologies](lan-topologies.md) | Network Structures & Topologies |
-| 04 | [📍 IP & MAC Address](ip-mac-address.md) | Network Addressing |
+| 04 | [📍 IP Address & MAC Address](ip-mac-address.md) | Network Addressing |
 | 05 | [🔄 ARP](arp.md) | Address Resolution Protocol |
 | 06 | [📡 DHCP](dhcp.md) | Dynamic Host Configuration Protocol |
 | 07 | [🛜 Router](router.md) | Routing & Packet Forwarding |

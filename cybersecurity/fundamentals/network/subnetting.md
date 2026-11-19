@@ -6,15 +6,6 @@
 
 ---
 
-## 🎯 Mục tiêu
-
-- Hiểu Subnetting là gì và tại sao cần sử dụng.
-- Biết vai trò của Subnet Mask.
-- Phân biệt Network Address, Host Address và Default Gateway.
-- Hiểu những lợi ích cơ bản của Subnetting.
-
----
-
 ## 📖 Khái niệm
 
 Subnetting là quá trình chia một mạng lớn thành nhiều mạng nhỏ hơn (**Subnet**).
@@ -35,19 +26,11 @@ Việc chia mạng được thực hiện bằng **Subnet Mask**, giúp xác đ�
 
 ## ⚙️ Cách hoạt động
 
-### Ví dụ mô hình
-
-```text
-              Internet
-                  │
-               Router
-                  │
-               Switch
-      ┌───────────┼───────────┐
-      │           │           │
- Accounting      HR       Finance
- (Subnet 1)   (Subnet 2) (Subnet 3)
-```
+<p align="center">
+  <img src="../../../assets/images/network/subneting.png" alt="Subneting" width="600">
+  <br>
+  <i>Subneting</i>
+</p>
 
 Mỗi phòng ban được tách thành một subnet riêng nhưng vẫn có thể kết nối ra Internet thông qua Router.
 
@@ -57,13 +40,11 @@ Mỗi phòng ban được tách thành một subnet riêng nhưng vẫn có th�
 
 Địa chỉ IP gồm **4 Octet**.
 
-```text
-192.168.1.1
-
-┌────┬────┬────┬────┐
-│192 │168 │ 1  │ 1  │
-└────┴────┴────┴────┘
-```
+<p align="center">
+  <img src="../../../assets/images/network/subneting-ip.png" alt="Subneting IP" width="600">
+  <br>
+  <i>Subneting IP</i>
+</p>
 
 Subnet Mask cũng gồm **4 Byte (32 bit)** và được dùng để chia mạng thành các subnet.
 
@@ -71,91 +52,11 @@ Subnet Mask cũng gồm **4 Byte (32 bit)** và được dùng để chia mạng
 
 ### Thành phần của một Subnet
 
-#### 1. Network Address
-
-- Xác định chính subnet.
-- Đại diện cho sự tồn tại của mạng.
-
-Ví dụ:
-
-```text
-192.168.1.0
-```
-
-Nếu một thiết bị có địa chỉ:
-
-```text
-192.168.1.100
-```
-
-thì thiết bị thuộc mạng:
-
-```text
-192.168.1.0
-```
-
----
-
-#### 2. Host Address
-
-- Định danh từng thiết bị trong subnet.
-
-Ví dụ:
-
-```text
-192.168.1.100
-```
-
----
-
-#### 3. Default Gateway
-
-- Địa chỉ của thiết bị có khả năng chuyển dữ liệu sang mạng khác.
-- Khi thiết bị cần gửi dữ liệu ra ngoài subnet, dữ liệu sẽ được gửi đến Default Gateway.
-
-Ví dụ:
-
-```text
-192.168.1.254
-```
-
-Thông thường Default Gateway sử dụng địa chỉ host đầu tiên hoặc cuối cùng của subnet.
-
----
-
-## 💡 Ví dụ
-
-### Mạng doanh nghiệp
-
-```text
-Internet
-    │
- Router
-    │
- Switch
- ┌──┼──┐
- │  │  │
-HR ACC FIN
-```
-
-Mỗi phòng ban sử dụng một subnet riêng để dễ quản lý.
-
----
-
-### Mạng gia đình
-
-Một mạng gia đình thường chỉ có một subnet vì số lượng thiết bị không vượt quá khoảng 254 thiết bị.
-
----
-
-### Mạng quán cà phê
-
-Quán cà phê có thể tách thành hai subnet:
-
-- Subnet dành cho nhân viên, máy POS và thiết bị nội bộ.
-- Subnet dành cho khách sử dụng Wi-Fi công cộng.
-
-Việc tách subnet giúp cô lập hai nhóm thiết bị nhưng cả hai vẫn có thể truy cập Internet.
+| Type | Purpose | Explanation | Example |
+| :--- | :--- | :--- | :--- |
+| **Network Address** | Địa chỉ này xác định điểm bắt đầu của mạng thực tế và được dùng để nhận diện sự tồn tại của một mạng | Ví dụ, một thiết bị có địa chỉ IP là 192.168.1.100 sẽ nằm trên mạng được xác định bởi 192.168.1.0 | 192.168.1.0 |
+| **Host Address** | Tại đây, địa chỉ IP được sử dụng để xác định một thiết bị trên mạng con | Ví dụ, một thiết bị sẽ có địa chỉ mạng là 192.168.1.1 | 192.168.1.100 |
+| **Default Gateway** | Địa chỉ cổng mặc định (default gateway) là một địa chỉ đặc biệt được gán cho một thiết bị trên mạng, có khả năng gửi thông tin đến một mạng khác | Mọi dữ liệu cần được gửi đến một thiết bị không nằm trong cùng mạng (ví dụ: không thuộc dải 192.168.1.0) sẽ được chuyển đến thiết bị này. Các thiết bị này có thể sử dụng bất kỳ địa chỉ host nào, nhưng thông thường chúng sẽ dùng địa chỉ host đầu tiên hoặc cuối cùng trong mạng (là .1 hoặc .254) | 192.168.1.254 |
 
 ---
 
@@ -188,6 +89,6 @@ Việc tách subnet giúp cô lập hai nhóm thiết bị nhưng cả hai vẫn
 
 ## 📚 Nguồn tham khảo
 
-- [TryHackMe](https://tryhackme.com/room/whatisnetworking)
+- [TryHackMe - Subnetting](https://tryhackme.com/room/introtolan)
 
 [<-- Back to Network Menu](../network/00-MENU.md)

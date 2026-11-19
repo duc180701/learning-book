@@ -1,15 +1,8 @@
 [<-- Back to Network Menu](../network/00-MENU.md)
 
-# 📌 Internet
+# 📌 What is Internet?
 
 > Một mạng lưới khổng lồ được tạo thành từ rất nhiều mạng nhỏ kết nối với nhau.
-
----
-
-## 🎯 Mục tiêu
-- Hiểu Internet được hình thành như thế nào.
-- Phân biệt mạng riêng (Private Network) và mạng công cộng (Public Network).
-- Biết Internet đóng vai trò kết nối các mạng nhỏ trên toàn thế giới.
 
 ---
 
@@ -30,38 +23,21 @@ Internet bao gồm:
 
 ## ⚙️ Cách hoạt động
 
-### Ví dụ minh họa
-
-```text
-Nhóm 1  ←→
-             \
-              \
-               Alice
-              /     \
-             /       \
-        Nhóm 2     Nhóm 3
-```
+<p align="center">
+  <img src="../../../assets/images/network/abj-zayn-toby.png" alt="Alice Bob Jim Zayn Toby" width="600">
+  <br>
+  <i>Alice Bob Jim Zayn Toby</i>
+</p>
 
 Alice đóng vai trò trung gian giúp các nhóm có thể giao tiếp với nhau.
 
 ### Kiến trúc Internet
 
-```text
-Private Network #1
-        │
-        │
-        ├────────────┐
-        │            │
-     The Internet (Public Network)
-        │            │
-        └────────────┤
-                     │
-             Private Network #2
-
-                     │
-
-             Private Network #3
-```
+<p align="center">
+  <img src="../../../assets/images/network/internet-diagram.png" alt="Internet Diagram" width="600">
+  <br>
+  <i>Internet Diagram</i>
+</p>
 
 Luồng hoạt động:
 
@@ -69,20 +45,6 @@ Luồng hoạt động:
 2. Các mạng riêng kết nối vào Internet.
 3. Internet trở thành cầu nối giúp các mạng này giao tiếp với nhau.
 4. Thiết bị trên mạng sử dụng các nhãn (labels) để nhận diện lẫn nhau.
-
----
-
-## 💡 Ví dụ
-
-Ví dụ trong bài học:
-
-- Bob và Jim không thể giao tiếp trực tiếp với Zayn và Toby.
-- Alice hiểu ngôn ngữ của cả hai bên nên chuyển tiếp thông tin.
-- Nhờ Alice, hai nhóm được kết nối và tạo thành một mạng lớn hơn.
-
-Tương tự trong máy tính:
-
-- Nhiều mạng nội bộ được kết nối thông qua Internet để các thiết bị ở các mạng khác nhau có thể trao đổi dữ liệu.
 
 ---
 
@@ -108,6 +70,6 @@ Tương tự trong máy tính:
 
 ## 📚 Nguồn tham khảo
 
-- [TryHackMe](https://tryhackme.com/room/whatisnetworking)
+- [TryHackMe - What is Internet?](https://tryhackme.com/room/whatisnetworking)
 
 [<-- Back to Network Menu](../network/00-MENU.md)

@@ -6,15 +6,6 @@
 
 ---
 
-## 🎯 Mục tiêu
-
-- Hiểu vai trò của ARP trong mạng LAN.
-- Biết cách ARP tìm MAC Address từ IP Address.
-- Hiểu quá trình ARP Request và ARP Reply.
-- Biết ARP Cache dùng để làm gì.
-
----
-
 ## 📖 Khái niệm
 
 Mỗi thiết bị trên mạng đều có hai định danh:
@@ -34,47 +25,11 @@ Khi cần giao tiếp với một thiết bị khác nhưng chưa biết MAC Add
 
 ### Luồng hoạt động
 
-```text
-PC A
-(IP: 192.168.1.20)
-
-        │
-        │ ARP Request
-        │
-        ▼
-Broadcast tới toàn bộ mạng
-
-"Who has 192.168.1.10?"
-```
-
-↓
-
-```text
-PC B
-(IP: 192.168.1.10)
-
-        │
-        │ ARP Reply
-        ▼
-
-"I have 192.168.1.10"
-
-MAC:
-18:AC:33:12:88:29
-```
-
-↓
-
-```text
-PC A
-
-Lưu kết quả vào
-ARP Cache
-
-192.168.1.10
-        ↓
-18:AC:33:12:88:29
-```
+<p align="center">
+  <img src="../../../assets/images/network/arp.png" alt="ARP Diagram" width="600">
+  <br>
+  <i>ARP Diagram</i>
+</p>
 
 ---
 
@@ -135,51 +90,6 @@ vào **ARP Cache** để sử dụng cho các lần giao tiếp sau mà không c
 
 ---
 
-## 💡 Ví dụ
-
-### Ví dụ
-
-PC A muốn gửi dữ liệu đến:
-
-```text
-192.168.1.10
-```
-
-Nhưng chưa biết MAC Address.
-
-Quá trình diễn ra:
-
-```text
-PC A
-    │
-ARP Request (Broadcast)
-    │
-──────────────►
-
-Toàn bộ mạng nhận được
-
-        │
-        ▼
-
-PC B
-(IP đúng)
-
-        │
-ARP Reply
-        ▼
-
-MAC:
-18:AC:33:12:88:29
-
-        │
-        ▼
-
-PC A lưu vào
-ARP Cache
-```
-
----
-
 ## 📝 Ghi nhớ
 
 - ARP dùng để **tìm MAC Address từ IP Address**.
@@ -204,6 +114,6 @@ ARP Cache
 
 ## 📚 Nguồn tham khảo
 
-- [TryHackMe](https://tryhackme.com/room/whatisnetworking)
+- [TryHackMe - ARP](https://tryhackme.com/room/introtolan)
 
 [<-- Back to Network Menu](../network/00-MENU.md)

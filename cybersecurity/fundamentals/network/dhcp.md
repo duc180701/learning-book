@@ -6,14 +6,6 @@
 
 ---
 
-## 🎯 Mục tiêu
-
-- Hiểu DHCP là gì và vai trò của DHCP Server.
-- Biết quá trình cấp phát địa chỉ IP tự động.
-- Hiểu quy trình DORA (Discover - Offer - Request - ACK).
-
----
-
 ## 📖 Khái niệm
 
 DHCP (Dynamic Host Configuration Protocol) là giao thức dùng để **tự động cấp phát địa chỉ IP** cho các thiết bị trong mạng.
@@ -24,23 +16,13 @@ Nếu thiết bị chưa được cấu hình IP tĩnh, nó sẽ gửi yêu cầ
 
 ---
 
-## ⚙️ Cách hoạt động
-
-### Kiến trúc
-
-```text
-            DHCP Server
-                 │
-           Cấp phát IP
-                 │
-        ┌────────┴────────┐
-        │                 │
-      PC A             PC B
-```
-
----
-
 ### Quy trình DORA
+
+<p align="center">
+  <img src="../../../assets/images/network/dhcp.png" alt="DHCP" width="600">
+  <br>
+  <i>DHCP</i>
+</p>
 
 #### 1. DHCP Discover
 
@@ -114,37 +96,6 @@ Sau khi nhận ACK, thiết bị có thể bắt đầu sử dụng địa chỉ
 
 ---
 
-### Tóm tắt quy trình
-
-```text
-Client
-   │
-   ├── DHCP Discover ─────────►
-   │
-   ◄──────── DHCP Offer ───────┤
-   │
-   ├── DHCP Request ──────────►
-   │
-   ◄──────── DHCP ACK ─────────┤
-   │
-Thiết bị bắt đầu sử dụng IP
-```
-
----
-
-## 💡 Ví dụ
-
-Một máy tính mới được kết nối vào mạng công ty.
-
-Quá trình diễn ra:
-
-1. Máy tính gửi **DHCP Discover** để tìm DHCP Server.
-2. DHCP Server đề xuất địa chỉ **192.168.1.10** (**DHCP Offer**).
-3. Máy tính chấp nhận địa chỉ này bằng **DHCP Request**.
-4. DHCP Server xác nhận (**DHCP ACK**) và cho phép máy tính sử dụng địa chỉ IP trong một khoảng thời gian (ví dụ: 24 giờ).
-
----
-
 ## 📝 Ghi nhớ
 
 - DHCP giúp tự động cấp phát địa chỉ IP.
@@ -170,6 +121,6 @@ Quá trình diễn ra:
 
 ## 📚 Nguồn tham khảo
 
-- [TryHackMe](https://tryhackme.com/room/whatisnetworking)
+- [TryHackMe - DHCP](https://tryhackme.com/room/introtolan)
 
 [<-- Back to Network Menu](../network/00-MENU.md)

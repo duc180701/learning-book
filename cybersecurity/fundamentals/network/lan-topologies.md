@@ -6,14 +6,6 @@
 
 ---
 
-## 🎯 Mục tiêu
-
-- Hiểu khái niệm Network Topology.
-- Biết đặc điểm của Star, Bus và Ring Topology.
-- So sánh ưu điểm và nhược điểm của từng mô hình.
-
----
-
 ## 📖 Khái niệm
 
 Network Topology là cách thiết kế hoặc bố trí các thiết bị trong mạng máy tính.
@@ -40,23 +32,11 @@ Ba topology phổ biến được giới thiệu gồm:
 
 Các thiết bị kết nối riêng lẻ đến một thiết bị trung tâm (Switch hoặc Hub).
 
-```text
-      PC
-       |
-PC --- Switch --- PC
-       |
-      PC
-```
-
-Luồng truyền:
-
-```text
-PC A
-   │
-Switch/Hub
-   │
-PC B
-```
+<p align="center">
+  <img src="../../../assets/images/network/star-topology.png" alt="Star Topology" width="600">
+  <br>
+  <i>Star Topology</i>
+</p>
 
 **Ưu điểm**
 
@@ -76,21 +56,11 @@ PC B
 
 Tất cả thiết bị cùng kết nối vào một đường truyền chính (Backbone Cable).
 
-```text
-PC    PC    PC
- |     |     |
-==================
-```
-
-Luồng truyền:
-
-```text
-PC A
-   │
-Backbone Cable
-   │
-PC B
-```
+<p align="center">
+  <img src="../../../assets/images/network/bus-topology.png" alt="Bus Topology" width="600">
+  <br>
+  <i>Bus Topology</i>
+</p>
 
 **Ưu điểm**
 
@@ -110,25 +80,11 @@ PC B
 
 Các thiết bị kết nối thành một vòng khép kín.
 
-```text
-PC ── PC
-│      │
-PC ── PC
-```
-
-Luồng truyền:
-
-```text
-PC A
- ↓
-PC B
- ↓
-PC C
- ↓
-PC D
- ↓
-PC A
-```
+<p align="center">
+  <img src="../../../assets/images/network/ring-topology.png" alt="Ring Topology" width="600">
+  <br>
+  <i>Ring Topology</i>
+</p>
 
 Dữ liệu được truyền lần lượt qua từng thiết bị cho đến khi tới đích.
 
@@ -142,16 +98,6 @@ Dữ liệu được truyền lần lượt qua từng thiết bị cho đến k
 
 - Dữ liệu có thể phải đi qua nhiều thiết bị.
 - Nếu một thiết bị hoặc đường truyền bị lỗi, toàn bộ vòng có thể bị gián đoạn.
-
----
-
-## 💡 Ví dụ
-
-| Topology | Ví dụ |
-|-----------|--------|
-| Star | Văn phòng sử dụng Switch kết nối tất cả máy tính |
-| Bus | Mạng cũ dùng chung một cáp Backbone |
-| Ring | Mạng các thiết bị kết nối thành vòng để truyền dữ liệu |
 
 ---
 
@@ -175,6 +121,6 @@ Dữ liệu được truyền lần lượt qua từng thiết bị cho đến k
 
 ## 📚 Nguồn tham khảo
 
-- [TryHackMe](https://tryhackme.com/room/whatisnetworking)
+- [TryHackMe - Lan Topologies](https://tryhackme.com/room/introtolan)
 
 [<-- Back to Network Menu](../network/00-MENU.md)

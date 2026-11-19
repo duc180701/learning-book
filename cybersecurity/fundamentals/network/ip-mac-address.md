@@ -6,15 +6,6 @@
 
 ---
 
-## 🎯 Mục tiêu
-
-- Hiểu cách thiết bị được nhận diện trên mạng.
-- Phân biệt IP Address và MAC Address.
-- Phân biệt Public IP và Private IP.
-- Biết vai trò của IPv4, IPv6 và MAC Address trong mạng máy tính.
-
----
-
 ## 📖 Khái niệm
 
 Để các thiết bị có thể giao tiếp và duy trì trật tự trên mạng, mỗi thiết bị cần có khả năng **định danh** và **được định danh**.
@@ -41,15 +32,11 @@ IP Address (Internet Protocol Address) là địa chỉ dùng để xác định
 - Gồm **4 Octet**.
 - Mỗi Octet có giá trị từ **0–255**.
 
-Ví dụ:
-
-```text
-192.168.1.1
-
-┌────┬────┬────┬────┐
-│192 │168 │ 1  │ 1  │
-└────┴────┴────┴────┘
-```
+<p align="center">
+  <img src="../../../assets/images/network/ip-address.png" alt="IP Address" width="600">
+  <br>
+  <i>IP Address</i>
+</p>
 
 Lưu ý:
 
@@ -62,25 +49,16 @@ Lưu ý:
 
 Internet được tạo thành từ nhiều mạng riêng.
 
-```text
-PC A (192.168.1.74)
-          │
-PC B (192.168.1.77)
-          │
-     Router
-          │
-Public IP
-86.157.52.21
-          │
-      Internet
-```
+<p align="center">
+  <img src="../../../assets/images/network/device-in-private-network.png" alt="Devices" width="600">
+  <br>
+  <i>Devices</i>
+</p>
 
 **Private IP**
 
 - Dùng để nhận diện thiết bị trong mạng nội bộ.
 - Các thiết bị trong cùng mạng sử dụng Private IP để giao tiếp với nhau.
-
-Ví dụ:
 
 ```text
 192.168.1.74
@@ -93,15 +71,21 @@ Ví dụ:
 - Được cấp bởi ISP (Internet Service Provider).
 - Các thiết bị trong cùng mạng có thể cùng sử dụng một Public IP khi truy cập Internet.
 
-Ví dụ:
-
-```text
-86.157.52.21
-```
+<p align="center">
+  <img src="../../../assets/images/network/public-ip.png" alt="Public IP" width="600">
+  <br>
+  <i>Public IP</i>
+</p>
 
 ---
 
 ### 3. IPv4 và IPv6
+
+<p align="center">
+  <img src="../../../assets/images/network/ipv4-ipv6.png" alt="IPV4 & IPV6" width="600">
+  <br>
+  <i>IPV4 & IPV6</i>
+</p>
 
 Do số lượng thiết bị kết nối Internet ngày càng tăng, IPv4 dần không còn đủ địa chỉ.
 
@@ -109,23 +93,11 @@ Do số lượng thiết bị kết nối Internet ngày càng tăng, IPv4 dần
 
 - Khoảng **2³²** địa chỉ (~4,29 tỷ địa chỉ).
 
-Ví dụ:
-
-```text
-86.157.52.21
-```
-
 **IPv6**
 
 - Hỗ trợ tới **2¹²⁸** địa chỉ.
 - Được thiết kế để giải quyết tình trạng thiếu địa chỉ IPv4.
 - Áp dụng phương pháp định địa chỉ hiệu quả hơn.
-
-Ví dụ:
-
-```text
-2a00:22c4:a531:c500:425f:cce6:c36b:f64d
-```
 
 ---
 
@@ -133,7 +105,11 @@ Ví dụ:
 
 MAC (Media Access Control) Address là địa chỉ vật lý của card mạng.
 
-Đặc điểm:
+<p align="center">
+  <img src="../../../assets/images/network/mac-address.png" alt="MAC Addess" width="600">
+  <br>
+  <i>MAC Addess</i>
+</p>
 
 - Được nhà sản xuất gán khi thiết bị được tạo ra.
 - Gồm **12 ký tự hệ thập lục phân (Hexadecimal)**.
@@ -141,61 +117,7 @@ MAC (Media Access Control) Address là địa chỉ vật lý của card mạng.
   - 6 ký tự đầu: Nhà sản xuất card mạng.
   - 6 ký tự cuối: Định danh duy nhất của card mạng.
 
-Ví dụ:
-
-```text
-a4:c3:f0:85:ac:2d
-
-a4:c3:f0  -> Vendor
-85:ac:2d  -> Unique Identifier
-```
-
 MAC Address có thể bị giả mạo (**MAC Spoofing**) để thiết bị mạo danh một thiết bị khác trên mạng.
-
----
-
-## 💡 Ví dụ
-
-### Ví dụ 1
-
-Hai máy tính trong cùng mạng:
-
-```text
-PC 1
-Private IP: 192.168.1.74
-
-PC 2
-Private IP: 192.168.1.77
-```
-
-Hai máy giao tiếp trực tiếp bằng Private IP.
-
----
-
-### Ví dụ 2
-
-Khi truy cập Internet:
-
-```text
-PC 1
-192.168.1.74
-        │
-Router
-Public IP:
-86.157.52.21
-        │
-Internet
-```
-
-Website trên Internet sẽ nhìn thấy Public IP thay vì Private IP.
-
----
-
-### Ví dụ 3
-
-Firewall chỉ cho phép MAC của quản trị viên truy cập.
-
-Nếu một thiết bị giả mạo (Spoof) MAC Address của quản trị viên, firewall có thể nhầm rằng đó là thiết bị hợp lệ.
 
 ---
 
@@ -223,6 +145,6 @@ Nếu một thiết bị giả mạo (Spoof) MAC Address của quản trị viê
 
 ## 📚 Nguồn tham khảo
 
-- [TryHackMe](https://tryhackme.com/room/whatisnetworking)
+- [TryHackMe - IP Address & MAC Adderss](https://tryhackme.com/room/whatisnetworking)
 
 [<-- Back to Network Menu](../network/00-MENU.md)

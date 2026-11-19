@@ -6,14 +6,6 @@
 
 ---
 
-## 🎯 Mục tiêu
-
-- Hiểu Ping là gì và mục đích sử dụng.
-- Biết Ping hoạt động dựa trên ICMP.
-- Đọc và hiểu kết quả của lệnh `ping`.
-
----
-
 ## 📖 Khái niệm
 
 **Ping** là một trong những công cụ mạng cơ bản và phổ biến nhất.
@@ -53,40 +45,13 @@ Quá trình:
 
 ---
 
-### Cú pháp
-
-```bash
-ping <IP Address>
-```
-
-Hoặc
-
-```bash
-ping <Website>
-```
-
-Ví dụ:
-
-```bash
-ping 192.168.1.254
-```
-
-```bash
-ping 8.8.8.8
-```
-
----
-
 ### Kết quả trả về
 
-Ví dụ:
-
-```text
-64 bytes from 192.168.1.254:
-icmp_seq=1
-ttl=63
-time=2.18 ms
-```
+<p align="center">
+  <img src="../../../assets/images/network/ping.png" alt="Ping" width="600">
+  <br>
+  <i>Ping</i>
+</p>
 
 Các thông tin quan trọng:
 
@@ -102,43 +67,6 @@ Sau khi kết thúc, Ping sẽ thống kê:
 - Số gói nhận được.
 - Tỷ lệ mất gói (Packet Loss).
 - Thời gian phản hồi trung bình.
-
-Ví dụ:
-
-```text
-6 packets transmitted
-6 received
-0% packet loss
-
-rtt min/avg/max
-2.152/4.160/10.313 ms
-```
-
----
-
-## 💡 Ví dụ
-
-### Ping một thiết bị trong mạng LAN
-
-```bash
-ping 192.168.1.254
-```
-
-Kết quả:
-
-- Gửi 6 gói ICMP.
-- Nhận đủ 6 gói phản hồi.
-- Thời gian phản hồi trung bình khoảng **4.16 ms**.
-
----
-
-### Ping một địa chỉ Internet
-
-```bash
-ping 8.8.8.8
-```
-
-Nếu nhận được Echo Reply, thiết bị có thể giao tiếp với địa chỉ đó qua mạng.
 
 ---
 
@@ -164,6 +92,6 @@ Nếu nhận được Echo Reply, thiết bị có thể giao tiếp với đị
 
 ## 📚 Nguồn tham khảo
 
-- [TryHackMe](https://tryhackme.com/room/whatisnetworking)
+- [TryHackMe - Ping](https://tryhackme.com/room/whatisnetworking)
 
 [<-- Back to Network Menu](../network/00-MENU.md)
